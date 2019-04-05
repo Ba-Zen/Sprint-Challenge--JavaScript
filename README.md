@@ -29,15 +29,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+.map returns an object and .forEach does not return anything. 
 2. What is the difference between a function and a method?
-
+method is apart of an object and function can be apart of an object and exist by itself. 
 3. What is closure?
-
+closure is a function within a function that can access it's parents variables and functions
 4. Describe the four rules of the 'this' keyword.
-
+1/Implicit binding refers to object left of the dot at call time
+2/Explicit tells the function what the content of the this keyword is going to be using :.call, .apply, and .bind.
+3/New binding is whenever a function is invoked with the new keyword. the this keyword is bound to the new object being constructed
+4/Window binding is when none of the above rules apply the this keyword will default to window object unless in strict mode, then it'll return undefined.
 5. Why do we need super() in an extended class?
-
+super() calls the construtor of the class it extended from to extends attributes to the child class
 ## Project Set up
 
 Follow these steps to set up and work on your project:
